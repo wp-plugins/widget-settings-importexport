@@ -1,6 +1,10 @@
 === Widget Settings Importer/Exporter ===
 Contributors: kevinlangleyjr, smccafferty
+Donate link: http://voceconnect.com/
 Tags: widget, import, export
+Requires at least: 2.8
+Tested up to: 3.2
+Stable tag: trunk
 
 Allows you to export and import widgets settings.
 
@@ -13,8 +17,6 @@ Gives the user the ability to export the current widget settings and states as a
 == Installation ==
 
 This section describes how to install the plugin and get it working.
-
-e.g.
 
 1. Upload entire widget-data directory to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
