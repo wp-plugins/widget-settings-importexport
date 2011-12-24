@@ -3,7 +3,7 @@ Contributors: kevinlangleyjr, smccafferty
 Donate link: http://voceconnect.com/
 Tags: widget, import, export
 Requires at least: 2.8
-Tested up to: 3.2
+Tested up to: 3.3
 Stable tag: trunk
 
 Allows you to export and import widgets settings.
