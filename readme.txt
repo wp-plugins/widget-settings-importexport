@@ -18,11 +18,14 @@ Gives the user the ability to export the current widget settings and states as a
 
 This section describes how to install the plugin and get it working.
 
-1. Upload entire widget-data directory to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload entire widget-settings-importexport directory to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 
 == Changelog ==
 
 = 0.1 =
 * First Version
+
+= 0.2 =
+* Fixing HTTP Authentication upload issue
