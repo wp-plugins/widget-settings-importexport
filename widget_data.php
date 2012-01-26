@@ -36,11 +36,13 @@ class Widget_Data {
 	
 	function add_admin_scripts ($hook) {
 		if('tools_page_widget-settings-import' != $hook || 'tools_page_widget-settings-export' != $hook) {
-			wp_register_style('widget_data_css', plugins_url( dirname(plugin_basename(__FILE__)) . '/widget_data.css' ));
+			wp_register_style('widget_data_css', plugins_url('/widget_data.css' , __FILE__));
 			wp_enqueue_style('widget_data_css');
 
-			wp_register_script( 'widget_data', plugins_url( dirname(plugin_basename(__FILE__)) . '/widget_data.js'));
+			wp_register_script( 'widget_data', plugins_url('/widget_data.js', __FILE__));
 			wp_enqueue_script('widget_data');
+			$widgets_url = get_admin_url(false, 'widgets.php');
+			wp_localize_script('widget_data', 'widgets_url', $widgets_url);
 		}
 	}
 

@@ -1,6 +1,5 @@
 === Widget Settings Importer/Exporter ===
 Contributors: kevinlangleyjr, smccafferty
-Donate link: http://voceconnect.com/
 Tags: widget, import, export
 Requires at least: 2.8
 Tested up to: 3.3
@@ -18,6 +17,8 @@ Gives the user the ability to export the current widget settings and states as a
 
 This section describes how to install the plugin and get it working.
 
+e.g.
+
 1. Upload entire widget-settings-importexport directory to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -28,4 +29,5 @@ This section describes how to install the plugin and get it working.
 * First Version
 
 = 0.2 =
-* Fixing HTTP Authentication upload issue
+* Fixing blank redirect with WP installed within sub directory
+
